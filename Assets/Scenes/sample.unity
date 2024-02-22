@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: e391f00234292cc4f935308c11cf0e54, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.13040188, g: 0.09601609, b: 0.061815403, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -199,7 +199,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &9755454
 PrefabInstance:
@@ -517,7 +517,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0898612915e83a248b647248f0bb5d74, type: 2}
     - target: {fileID: 919132149155446097, guid: bcca2c29e58354a4989c71d5c0554fce, type: 3}
       propertyPath: m_Name
-      value: 7777777
+      value: ModernApartment
       objectReference: {fileID: 0}
     - target: {fileID: 2355361619483455786, guid: bcca2c29e58354a4989c71d5c0554fce, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1385,7 +1385,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 87e9e853b609ade4d939209cd2f07054, type: 2}
     - target: {fileID: 919132149155446097, guid: e5a2662a53b06894b9d6326274e4006b, type: 3}
       propertyPath: m_Name
-      value: uploads_files_3780182_Maison_villa_cg (2)
+      value: Maison_villa_cg (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1193965281332957865, guid: e5a2662a53b06894b9d6326274e4006b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2808,7 +2808,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e7b88e795505a2f4f9e37ede8018c60d, type: 2}
     - target: {fileID: 919132149155446097, guid: a3931608cc1e1744e8bf33baa6db090f, type: 3}
       propertyPath: m_Name
-      value: uploads_files_4307523_Modren+Luxury+House
+      value: ModrenLuxuryHouse
       objectReference: {fileID: 0}
     - target: {fileID: 1297571817524309938, guid: a3931608cc1e1744e8bf33baa6db090f, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3270,11 +3270,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 203224592}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e43d93e63b39ccb4ab5be6eeb8996a0d, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e43d93e63b39ccb4ab5be6eeb8996a0d, type: 3}
       propertyPath: m_LocalScale.x
@@ -3290,7 +3290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e43d93e63b39ccb4ab5be6eeb8996a0d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 268.9
+      value: 372.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e43d93e63b39ccb4ab5be6eeb8996a0d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3298,7 +3298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e43d93e63b39ccb4ab5be6eeb8996a0d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.6
+      value: 135.74146
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e43d93e63b39ccb4ab5be6eeb8996a0d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3306,15 +3306,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e43d93e63b39ccb4ab5be6eeb8996a0d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e43d93e63b39ccb4ab5be6eeb8996a0d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e43d93e63b39ccb4ab5be6eeb8996a0d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e43d93e63b39ccb4ab5be6eeb8996a0d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4626,7 +4626,7 @@ PrefabInstance:
       objectReference: {fileID: 239378781582670930, guid: aa1cbac174dacc34f8417c48f816cb5e, type: 3}
     - target: {fileID: 919132149155446097, guid: 8d7ce87bf48ce854bbba61615c987da2, type: 3}
       propertyPath: m_Name
-      value: uploads_files_2304647_MEDIEVAL+HOUSE+1
+      value: MEDIEVALHOUSE
       objectReference: {fileID: 0}
     - target: {fileID: 2654713335656134247, guid: 8d7ce87bf48ce854bbba61615c987da2, type: 3}
       propertyPath: m_IsActive
@@ -4703,7 +4703,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0898612915e83a248b647248f0bb5d74, type: 2}
     - target: {fileID: -8679921383154817045, guid: a3931608cc1e1744e8bf33baa6db090f, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3931608cc1e1744e8bf33baa6db090f, type: 3}
       propertyPath: m_LocalScale.x
@@ -4847,7 +4847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a3931608cc1e1744e8bf33baa6db090f, type: 3}
       propertyPath: m_Name
-      value: uploads_files_4307523_Modren+Luxury+House (1)
+      value: ModrenLuxuryHouse
       objectReference: {fileID: 0}
     - target: {fileID: 1297571817524309938, guid: a3931608cc1e1744e8bf33baa6db090f, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5545,6 +5545,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8758910274276668558, guid: 6d51272532f8a964fba8e4e1d9a4bc89, type: 3}
+      propertyPath: m_Name
+      value: Pharmacy
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d51272532f8a964fba8e4e1d9a4bc89, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -5589,6 +5593,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8418885108249170206, guid: 6d51272532f8a964fba8e4e1d9a4bc89, type: 3}
+      propertyPath: m_Name
+      value: Car
+      objectReference: {fileID: 0}
     - target: {fileID: -8314669935345455116, guid: 6d51272532f8a964fba8e4e1d9a4bc89, type: 3}
       propertyPath: m_LocalPosition.x
       value: -303.8
@@ -5607,7 +5615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d51272532f8a964fba8e4e1d9a4bc89, type: 3}
       propertyPath: m_Name
-      value: maya2sketchfab.fbx
+      value: Base
       objectReference: {fileID: 0}
     - target: {fileID: 3507036473979818502, guid: 6d51272532f8a964fba8e4e1d9a4bc89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5835,7 +5843,7 @@ GameObject:
   - component: {fileID: 1920760998}
   - component: {fileID: 1920760997}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5913,14 +5921,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920760987}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 214.69, y: 2.14, z: -144.2}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 214.69, y: 0.784, z: -147.404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 892399755}
   - {fileID: 1120486940}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &1920760997
 CharacterController:
