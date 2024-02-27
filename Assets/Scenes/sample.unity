@@ -3095,7 +3095,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7d0f124089ea6e04ca0e8fec0c32899e, type: 3}
       propertyPath: m_Name
-      value: Ch33_nonPBR
+      value: Character1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d0f124089ea6e04ca0e8fec0c32899e, type: 3}
@@ -7400,7 +7400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1791935066}
   m_Layer: 0
-  m_Name: EVE
+  m_Name: NPC1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
