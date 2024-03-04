@@ -9,6 +9,7 @@ public class LineRendererSettings : MonoBehaviour
     public GameObject panel;
     public Image img;
     public Button btn;
+
     //Declare a LineRenderer to store the component attached to the GameObject. 
     [SerializeField] LineRenderer rend;
 
@@ -20,6 +21,8 @@ public class LineRendererSettings : MonoBehaviour
     {
         //get the LineRenderer attached to the gameobject. 
         rend = gameObject.GetComponent<LineRenderer>();
+
+        img = panel.GetComponent<Image>();
     
         //initialize the LineRenderer
         points = new Vector3[2];
@@ -56,5 +59,12 @@ public class LineRendererSettings : MonoBehaviour
     private void Update()
     {
         AlignLineRenderer(rend);
+    }
+    public void ColorChangeOnClick()
+    {
+        if (btn != null)
+        {
+            if(btn.name == )
+        }
     }
 }
