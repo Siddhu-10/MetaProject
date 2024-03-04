@@ -1,27 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
+--- !u!114 &-8932779089643131043
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: Jackie_timeline
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
-  m_Version: 0
-  m_Tracks:
-  - {fileID: 4009009148320984662}
-  m_FixedDuration: 0
-  m_EditorSettings:
-    m_Framerate: 60
-    m_ScenePreview: 1
-  m_DurationMode: 0
-  m_MarkerTrack: {fileID: 0}
---- !u!114 &4009009148320984662
+  m_Clip: {fileID: -203655887218126122, guid: 0cd05349f7059e0419233b03e69e5400, type: 3}
+  m_Position: {x: 2.0179894, y: -0.41535315, z: 15.4471}
+  m_EulerAngles: {x: 0.02, y: 3.209, z: 0.001}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &-6201768311952595322
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,14 +46,14 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 6233375391312652560}
+    m_Asset: {fileID: -6116822419011087018}
     m_Duration: 10
     m_TimeScale: 1
-    m_ParentTrack: {fileID: 4009009148320984662}
+    m_ParentTrack: {fileID: -6201768311952595322}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 1.75
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -112,12 +113,12 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Walking
   - m_Version: 1
-    m_Start: 10
+    m_Start: 11.683333333333334
     m_ClipIn: 0
-    m_Asset: {fileID: 6338214115994679938}
-    m_Duration: 22.933333333333362
+    m_Asset: {fileID: -8932779089643131043}
+    m_Duration: 13.983333333333334
     m_TimeScale: 1
-    m_ParentTrack: {fileID: 4009009148320984662}
+    m_ParentTrack: {fileID: -6201768311952595322}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
@@ -163,15 +164,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Fast Run
   - m_Version: 1
-    m_Start: 8.25
+    m_Start: 10
     m_ClipIn: 0
-    m_Asset: {fileID: 7254914121556633752}
-    m_Duration: 1.75
+    m_Asset: {fileID: -2349027458605714287}
+    m_Duration: 1.6833333333333336
     m_TimeScale: 1
-    m_ParentTrack: {fileID: 4009009148320984662}
+    m_ParentTrack: {fileID: -6201768311952595322}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.75
+    m_BlendInDuration: -1
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -233,7 +234,7 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
---- !u!114 &6233375391312652560
+--- !u!114 &-6116822419011087018
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -255,29 +256,7 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &6338214115994679938
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: -203655887218126122, guid: 0cd05349f7059e0419233b03e69e5400, type: 3}
-  m_Position: {x: 1.2745688, y: -0.34379485, z: 13.948158}
-  m_EulerAngles: {x: 0, y: 1.27, z: 0.024}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &7254914121556633752
+--- !u!114 &-2349027458605714287
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,8 +269,8 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -203655887218126122, guid: 6fed1dee385289c40a2211a3ba002194, type: 3}
-  m_Position: {x: -0.83789355, y: -0.029932871, z: 12.736165}
-  m_EulerAngles: {x: 0, y: 4.095, z: 0.014}
+  m_Position: {x: -0.014337772, y: -0.05539745, z: 14.38842}
+  m_EulerAngles: {x: 0.014, y: 6.523, z: 0.001}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
@@ -299,3 +278,24 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: Jackie_timeline
+  m_EditorClassIdentifier: 
+  m_Version: 0
+  m_Tracks:
+  - {fileID: -6201768311952595322}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
